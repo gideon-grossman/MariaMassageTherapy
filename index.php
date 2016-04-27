@@ -8,9 +8,11 @@
 
 </head>
 <body>
-  <!--><button id = "enter"> Create a beat.</button>
+  <!--<button id = "enter"> Create a beat.</button>
   <div id= "drumkitImage" alt="drumkit">-->
-  
+  <div id = "welcome">
+	Welcome to Maria's Massage Therapy
+	</div>
 <div class = "staff">
     <img class = "staffImage" src = "http://www.polyadhawaiitours.com/maui/images/02209.jpg">
   </div>
