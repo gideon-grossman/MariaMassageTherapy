@@ -8,11 +8,11 @@
 
 </head>
 <body>
-  <button id = "title"> Create a beat.</button>
-  <div id= "drumkitImage" alt="drumkit">
+  <!--><button id = "enter"> Create a beat.</button>
+  <div id= "drumkitImage" alt="drumkit">-->
   
 <div class = "staff">
-    <img class = "staffImage" src = "http://www.datemplate.com/postpic/2009/01/blank-music-staff-clip-art_417989.png">
+    <img class = "staffImage" src = "http://www.polyadhawaiitours.com/maui/images/02209.jpg">
   </div>
 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 </body>
