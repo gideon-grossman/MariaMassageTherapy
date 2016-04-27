@@ -13,8 +13,8 @@
   <div id = "welcome">
 	Welcome to Maria's Massage Therapy
 	</div>
-<div class = "staff">
-    <img class = "staffImage" src = "http://www.polyadhawaiitours.com/maui/images/02209.jpg">
+<div class = "waterfall" align = "middle">
+    <img class = "waterfallImage" src = "http://www.polyadhawaiitours.com/maui/images/02209.jpg">
   </div>
 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 </body>
