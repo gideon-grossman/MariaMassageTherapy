@@ -1,8 +1,9 @@
 <link rel="stylesheet" href="css/thank-you-image.css">
 	
-Thank you for submitting your reservation request. I will reply as soon as possible.
+<div class "thank-you-page">Thank you for submitting your reservation request. I will reply as soon as possible.
 
 Have a great day!
+</div>
 <?php 
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
 	$name  = trim(filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING));
