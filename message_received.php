@@ -8,8 +8,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 	$message = trim(filter_input(INPUT_POST, "message", FILTER_SANITIZE_SPECIAL_CHARS));
 	
 	$email_body = "";
-	$email_body .= "From ".$name.PHP_EOL;
-	$email_body .= "with email address ".$email.PHP_EOL;
+	$email_body .= "From ".$name."<br>";
+	$email_body .= "with email address ".$email.<br>;
 	$email_body .= "Message: ".$details. "\r\n";
 	
 	require_once('inc/phpmailer/class.phpmailer.php');
@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 	$mail->isHTML(false);                                  // Set email format to HTML
 
 	$mail->Subject = 'Here is the subject';
-	$mail->Body    = 'This is the HTML message body <b>in bold!</b>'.$email_body;
+	$mail->Body    = $email_body;
 	$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 	if(!$mail->send()) {
