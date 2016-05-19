@@ -8,9 +8,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 	$message = trim(filter_input(INPUT_POST, "message", FILTER_SANITIZE_SPECIAL_CHARS));
 	
 	$email_body = "";
-	$email_body .= "From ".$name."\n";
-	$email_body .= "with email address ".$email."\n";
-	$email_body .= "Message: ".$details. "\n";
+	$email_body .= "From ".$name."\r\n";
+	$email_body .= "with email address ".$email."\r\n";
+	$email_body .= "Message: ".$details. "\r\n";
 	
 	require_once('inc/phpmailer/class.phpmailer.php');
 	$mail = new PHPMailer;
