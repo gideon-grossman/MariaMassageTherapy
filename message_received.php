@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 	$mail->isHTML(false);                                  // Set email format to HTML
 
 	$mail->Subject = 'Here is the subject';
-	$mail->Body    = 'This is the HTML message body <b>in bold! ".$email_body</b>';
+	$mail->Body    = 'This is the HTML message body <b>in bold!</b>';
 	$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 	if(!$mail->send()) {
