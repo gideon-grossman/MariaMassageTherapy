@@ -1,4 +1,6 @@
-	Thank you for submitting your reservation request. I will reply as soon as possible.
+
+<body background = "images/ThankYou.jpg">	
+Thank you for submitting your reservation request. I will reply as soon as possible.
 
 Have a great day!
 <?php 
