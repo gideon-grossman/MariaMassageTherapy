@@ -8,8 +8,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 	$message = trim(filter_input(INPUT_POST, "message", FILTER_SANITIZE_SPECIAL_CHARS));
 	
 	$email_body = "";
-	$email_body .= "You have a massage therapy request from ".$name.".<br>";
-	$email_body .= $message. "<br>";
+	$email_body .= "You have a massage therapy request from ".$name.":<br><br>";
+	$email_body .= $message. "<br><br>";
 	$email_body .= "You can reply to ".$name." at ".$email.".<br>";
 	
 	require_once('inc/phpmailer/class.phpmailer.php');
