@@ -36,7 +36,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 		exit;
 	};
 	
-	header("location:suggest.php?status=thanks");
 	exit;	};
 ?>	
 	Thank you for submitting your reservation request. I will reply as soon as possible.
