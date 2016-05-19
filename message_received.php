@@ -3,7 +3,7 @@
 </head>
 
 <body>
-<div class "thank-you-page">Thank you for submitting your reservation request. I will reply as soon as possible.
+<div class = "thank-you-page">Thank you for submitting your reservation request. I will reply as soon as possible.
 
 Have a great day!
 </div>
