@@ -1,5 +1,5 @@
-
-<body background = "images/ThankYou.jpg">	
+<link rel="stylesheet" href="css/thank-you-image.css">
+	
 Thank you for submitting your reservation request. I will reply as soon as possible.
 
 Have a great day!
