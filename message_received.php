@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 	
 	$email_body = "";
 	$email_body .= "From ".$name."<br>";
-	$email_body .= "with email address ".$email.<br>;
+	$email_body .= "with email address ".$email;
 	$email_body .= "Message: ".$details. "\r\n";
 	
 	require_once('inc/phpmailer/class.phpmailer.php');
